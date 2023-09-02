@@ -74,7 +74,7 @@ export const myProjects = [
         technologies:["React", "Redux", "CSS3", "Node.js", "PostgreSQL", "Sequelize", "Express"],
         deploy:"https://pokemon-solsantacruz.vercel.app",
         repository:"https://github.com/Solsantacruz",
-        video:"https://www.youtube.com/watch?v=zCYnhixTC0c",
+        video:"https://youtu.be/ZU0merN8wZw",
         
     },
     {
@@ -91,8 +91,8 @@ export const myProjects = [
     {
       image: blogCafe,
       name:"Blog Cafe",
-      date:"MAY 2023",
-      description: "This is an academic project I developed to apply all the learned technologies during bootcamp such as React, Redux, CSS3, Express, Sequelize, PostgreSQL. In this app user can search and filter over +750 Rick and Morty's serie characters, save their favs and delete them if wanted.",
+      date:"NOV 2021",
+      description: "Blog Café es una web que presenta información sobre café y utiliza la metodología BEM (Bloque, Elemento, Modificador) en CSS para garantizar una estructura de código clara y organizada. Incluye detalles sobre diferentes variedades de café, así como un formulario de contacto.",
       technologies:["HTML5","CSS3"],
       deploy:"https://coffieblog.netlify.app",
       repository:"https://github.com/Solsantacruz",
@@ -107,7 +107,7 @@ export const proyectDetail = [
   {
     image: [wLanding, wDescubre, wDetail, wLogin, wUsuario, wDachboard],
     name:"Wanderlust",
-    date:"NOV 2021",
+    date:"AGUST 2023",
     description: "Una plataforma e-commerce para apasionados por viajar, ofrece paquetes hacia los destinos más icónicos del mundo. Pueden adaptar la aventura agregando actividades personalizadas al itinerario, asegurando que su viaje sea único",
     technologies:["React", "Redux", "TailwindCSS", "Firebase", "PostgreSQL", "Sequelize", "Express", "Cloudinary", "Nodemailer", "Vercel", "Railway"],
         deploy:"https://wanderlust-phi.vercel.app",
@@ -122,7 +122,7 @@ export const proyectDetail = [
     technologies:["React", "Redux", "CSS3", "Node.js", "PostgreSQL", "Sequelize", "Express"],
     deploy:"https://pokemon-solsantacruz.vercel.app",
     repository:"https://github.com/Solsantacruz",
-    video:"https://www.youtube.com/watch?v=zCYnhixTC0c",
+    video:"https://youtu.be/ZU0merN8wZw",
     
 },
 {
@@ -140,7 +140,7 @@ export const proyectDetail = [
   image: [cLanding, cCurso, cContacto],
   name:"Blog Cafe",
   date:"NOV 2021",
-  description: "This is an academic project I developed to apply all the learned technologies during bootcamp such as React, Redux, CSS3, Express, Sequelize, PostgreSQL. In this app user can search and filter over +750 Rick and Morty's serie characters, save their favs and delete them if wanted.",
+  description: "Blog Café es una web que presenta información sobre café y utiliza la metodología BEM (Bloque, Elemento, Modificador) en CSS para garantizar una estructura de código clara y organizada. Incluye detalles sobre diferentes variedades de café, así como un formulario de contacto y completamente responsive.",
   technologies:["HTML5","CSS3"],
   deploy:"https://coffieblog.netlify.app",
   repository:"https://github.com/Solsantacruz",

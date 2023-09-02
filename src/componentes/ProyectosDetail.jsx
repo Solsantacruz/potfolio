@@ -3,8 +3,11 @@ import { proyectDetail } from "../data";
 import {
     FiLink,
     FiGithub,
+    FiHome,
+    FiYoutube,
   } from 'react-icons/fi';
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const ProyectostDetail = () => {
 
@@ -18,6 +21,8 @@ const ProyectostDetail = () => {
 //     setModalImage(null);
 //   };
   return (
+    <div className="bg-primary pt-16">
+    <Link to='/' className="text-orange hover:text-fondo transition duration-400 hover:scale-110 ml-36 flex flex-col gap-5"><FiHome className="text-orange text-3xl hover:text-fondo"/> Back to Home</Link>
     <section id="project-details" className="section bg-primary">
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
       {proyectDetail.map((project, index) => (
@@ -41,6 +46,16 @@ const ProyectostDetail = () => {
             <p className="text-sm text-orange">{project.technologies.join(" | ")}</p>
           </div>
           <div className="mt-4 flex flex-row">
+          {project.video ? (
+                  <a
+                    href={project.video}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red lg:text-[25px] hover:underline mr-4"
+                  >
+                    <FiYoutube />
+                  </a>
+                ) : null}
             <a
               href={project.deploy}
               target="_blank"
@@ -61,7 +76,8 @@ const ProyectostDetail = () => {
         </div>
     ))}
     </div>
-    </section> 
+    </section>
+    </div> 
   );
 };
 

@@ -17,9 +17,10 @@ const Proyect = () => {
             <h2 className="section-title text-fondo">
                 Mis Proyectos
             </h2>
-            <p className="subtitle text-fondo">Una muestra de mi creatividad y habilidades técnicas en acción. Explora una variedad de proyectos que abarcan diseño, desarrollo y más. Descubre cómo transformo ideas en realidad.</p>
+            <p className="subtitle text-fondo text-center">Una muestra de mi creatividad y habilidades técnicas en acción. Explora una variedad de proyectos que abarcan diseño, desarrollo y más. Descubre cómo transformo ideas en realidad.</p>
         </div>
         <ProyectSlider />
+        <Link to="proyect-detail" className="bg-rose text-primary p-4 font-bold">Ver Detalles</Link>
      </div>
     </section>
   );

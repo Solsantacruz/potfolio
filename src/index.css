@@ -35,7 +35,7 @@
     @apply h-[48px];
   }
   .input {
-    @apply bg-green text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-green;
+    @apply bg-green text-paragraph h-[60px] outline-none pl-6 w-full font-body text-[15px] rounded-sm focus:outline focus:outline-1 focus:outline-rose;
   }
   .textarea {
     @apply bg-green resize-none w-full outline-none p-6 rounded-sm h-[200px] focus:outline focus:outline-1 focus:outline-rose;

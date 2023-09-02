@@ -6,8 +6,8 @@ import About from './componentes/About';
 import Contacto from './componentes/Contacto';
 import Footer from './componentes/Footer';
 import BackToTop from './componentes/BackToTop';
-// import { Routes, Route } from "react-router-dom";
-// import ProyectostDetail from './componentes/ProyectosDetail';
+import { Routes, Route } from "react-router-dom";
+import ProyectosDetail from './componentes/ProyectosDetail';
 
 
 
@@ -15,13 +15,21 @@ import BackToTop from './componentes/BackToTop';
 function App() {
   return (
     <div className="App">
-    <Nav />
-    <Bienvenida />
-    <About />
+      
+<Routes>
+  <Route path="/" element={<Bienvenida />} />
+  <Route path="/proyect-detail" element={<ProyectosDetail />} />
+  
+
+    
+    
+    {/* <About />
     <Proyect />
     <Contacto />
     <Footer />
-    <BackToTop />
+    <BackToTop /> */}
+
+  </Routes>
     
 
       

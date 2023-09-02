@@ -1,4 +1,10 @@
 import IT from '../assets/gif.gif' ;
+import About from './About';
+import Proyect from './Proyect';
+import Contacto from './Contacto';
+import Footer from './Footer';
+import BackToTop from './BackToTop';
+import Nav from './nav/Nav';
 
 const Bienvenida = () => {
       
@@ -6,9 +12,11 @@ const Bienvenida = () => {
 
 
     return(
+      <>
+      <Nav />
       <section id='home' className="section bg-primary">
-        <div  className="flex justify-center md:text-start">
-        <div className="border-2 border-secondary rounded-lg shadow-md shadow-secondary max-w-[900px] w-[90%] py-10 mt-5 md:mt-[150px] lg:mb[400px] md:border-none md:shadow-none">
+        <div  className="flex justify-center text-start">
+        <div className="border-2 border-secondary rounded-lg shadow-md shadow-secondary max-w-[900px] xl:w-[70%] w-[90%] py-10 mt-5 md:mt-[150px] lg:mb[400px] md:border-none md:shadow-none">
         <div className=''>
         <p className="text-fondo font-arial text-xl font-extrabold md:text-6xl lg:text-7xl ml-5">Hola, </p>
         </div>
@@ -19,15 +27,22 @@ const Bienvenida = () => {
           <p className="font-arial text-[30px] lg:text-[35px] px-1 font-extrabold bg-yellow text-green text-center rounded-5 lg:py-3">FullStack Developer</p>
         </div>
         </div> 
-        <div className="">
+        <div className="xl:mx-10">
         <img
         src={IT}
         alt="IT"
-        className="mx-auto  hidden md:hidden lg:block lg:w-[500px] lg:my-[150px] lg:bg-green"
+        className="mx-auto xl:w-[90%]  hidden md:hidden lg:block lg:w-[500px] lg:my-[150px] lg:bg-green"
       />
         </div>
     </div>
+    
     </section>
+    <About />
+    <Proyect />
+    <Contacto />
+    <Footer />
+    <BackToTop /></>
+    
     
     )
 }
